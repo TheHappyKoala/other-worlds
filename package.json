@@ -4,6 +4,7 @@
   "description": "A planet texture generator",
   "main": "index.js",
   "scripts": {
+    "build": "esbuild ./src/index.ts --bundle --minify --outfile=./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/TheHappyKoala/other-worlds#readme",
   "devDependencies": {
+    "esbuild": "^0.18.13",
     "typescript": "^5.0.4"
   }
 }
