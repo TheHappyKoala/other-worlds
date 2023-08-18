@@ -4,7 +4,7 @@
   "description": "A planet texture generator",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild ./src/index.ts --bundle --minify --outfile=./dist/index.js",
+    "build": "esbuild ./src/index.ts --bundle --minify --format=esm --outfile=./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
